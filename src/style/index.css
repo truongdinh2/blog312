@@ -1,0 +1,26 @@
+.mu{
+    width: 70%;
+    padding: 20px 0;
+}
+img{
+    padding-top: 30px;
+}
+header{
+    background-color:#37003c ;
+}
+.color{
+    color: white !important;
+    font-size: 14px;
+    line-height: 60px;
+}
+/* .color:hover{
+    color:  !important;
+} */
+.title{
+    padding: 50px 0;
+}
+footer{
+    background-color: #323A56;
+    color: white;
+    height: 100px;
+}
