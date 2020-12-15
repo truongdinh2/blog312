@@ -1,0 +1,12 @@
+.flexbox_nav{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+}
+.item0{
+    flex-basis: 70%;
+}
+.flexitem_nav{
+    justify-self: center;
+    margin-right: 30px;
+}

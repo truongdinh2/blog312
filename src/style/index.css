@@ -1,10 +1,3 @@
-.mu{
-    width: 70%;
-    padding: 20px 0;
-}
-img{
-    padding-top: 30px;
-}
 header{
     background-color:#37003c ;
 }
@@ -13,11 +6,14 @@ header{
     font-size: 14px;
     line-height: 60px;
 }
-/* .color:hover{
-    color:  !important;
-} */
 .title{
-    padding: 50px 0;
+    padding: 130px 0;
+    margin: auto;
+    padding-left: 50px;
+    /* text-align: center; */
+    color: rgba(19, 47, 139, 0.808);
+    width: 80%;
+    border-bottom: 1px solid rgb(167, 72, 88);
 }
 footer{
     background-color: #323A56;

@@ -20,10 +20,7 @@ export default function Content(props) {
               <span style={{ color: `#BBB` }}>— {node.frontmatter.date}</span>
             </h3>
             <p style={{marginLeft: '20px'}}>{node.excerpt}</p>
-            {/* <h3>{node.frontmatter.title}
-                            <span style={{ color: `#BBB` }}>— {node.frontmatter.date}</span>
-                        </h3>
-                        <p>{node.excerpt}</p> */}
+
           </div>
         )}
       </Layout>
