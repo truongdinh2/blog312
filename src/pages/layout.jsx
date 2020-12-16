@@ -24,7 +24,7 @@ export default function Layout(props) {
       <Header
         title={data.site.siteMetadata.title}
       />
-      <main style={{minHeight:"80vh"}}>
+      <main style={{minHeight:"80vh", margin:'0px 10%'}}>
         {children}
       </main>
       <Footer

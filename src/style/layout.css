@@ -1,17 +1,8 @@
-.backG{
-    background-image: url(./../../static/sss.jpg);
-    background-repeat: no-repeat;
-    min-height: 500px;
-    min-width: 500px;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 .flexbox_i4{
     display: flex;
-    border: 1px solid black;
     flex-flow: row wrap;
-    margin: 100px auto 150px;
-    /* margin-left: auto; */
+    margin: 10px auto 150px;
     width: 95%;
 
     justify-content: space-around;
@@ -19,8 +10,93 @@
 .flexItem_i4{
 flex-basis: 230px;
 height: 150px;
-/* margin: auto; */
 margin: 10px 30px;
 border-radius: 20px;
-border: 1px solid black
+border: 1px solid black;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+align-items: center;
+transition: 0.4s;
+}
+
+.tieude{
+    color: black;
+    font-family: sans-serif;
+    align-self: center;
+}
+.flexItem_i4:hover{
+    border: 1px solid pink;
+}
+.new{
+    display: flex;
+    padding-top: 50px;
+    margin-left: 8%;
+}
+.text{
+    /* border: 1px solid black; */
+    padding-left: 10%;
+    flex-basis: 40%;
+    text-align: right;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.new img{
+    width: 80%;
+}
+#p{
+    font-size: 17px;
+    /* margin: 200px 150px 0 0;
+     */
+     margin-top: 10%;
+     margin-left: 10%;
+    /* border: 1px solid black; */
+}
+figcaption{
+    font-style: italic;
+    font-size: 13px;
+    margin: 0;
+    font-family: Arial;
+    font-weight: normal;
+    text-align: center;
+}
+@media only screen and (min-width: 910px){
+    .backG{
+        min-height: 500px;
+        min-width: 300px;
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    .flexbox_i4{
+    margin: 50px auto 150px;
+    justify-content: space-around;
+}
+
+}
+@media only screen and (min-width: 1400px){
+    .backG{
+        min-height: 600px;
+        min-width: 300px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .flexbox_i4{
+    margin: 50px auto 250px;
+}
+}
+@media only screen and (max-width: 1000px) {
+    .text{
+        text-align: left;
+        /* border: 1px solid black; */
+        /* flex-basis: 100%; */
+        padding-left: 0%;
+        margin-right: 0px;
+        padding-top: 10px;
+    }
+    .new{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 50px;
+        margin-left: 8%;
+    }
 }
